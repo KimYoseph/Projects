@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio | Homepage</title>
+        <title>Yoseph's Portfolio | Projects</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <div id="title">
-                <h1>Rei's Portfolio</h1>
-            </div>
-            <div id="navBar">
-                <nav>
-                    <ul>
-                        <li><a href="https://kimyoseph.github.io/My-Portfolio/">Home</a></li>
-                        <li><a href="https://kimyoseph.github.io/Projects/">Projects</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <div>
-            <h1>Welcome to Javascript Projects</h1>
-        </div>
-
-        <div>
-            <h1>GitHub</h1>
-            <p>GitHub ID: KimYoseph</p>
-            <a href="https://github.com/KimYoseph">GitHub Page</a>
-        </div>
-
-        <div>
-            <div>
-                <h3>PacMen Project</h3>
-                <p>In the PacMen project, we were assigned the task of creating files that adds a PacMan on a random position in a set are of the window when the "Add PacMan" Button is pressed. After adding PacMen, the PacMen would begin moving across the screen at random speeds when the "Start" button is hit. If one of the PacMen were to hit the wall, they would simply bounce off of it.</p>
-                <a href="https://kimyoseph.github.io/PacMen-Factory/">Go to Project</a>
+        <div class="wrapper">
+            <header class="top">
+                <div>
+                    <h1>Rei's Portfolio</h1>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <a href="https://kimyoseph.github.io/My-Portfolio/">Home</a>
+                            <a href="https://kimyoseph.github.io/Projects/">Projects</a>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+    
+            <div class="welcome">
+                <h1>Welcome to Javascript Projects</h1>
             </div>
     
-            <div>
-                <h3>Eye Movement Project</h3>
-                <p>In this project, we were provided with an eye that traked the mouse cursor when it was on the window. With this code, we were then told to make another eye that also tracked the cursor right next to the given eye. Essentially, we were told to make a pair of eyes that tracked the cursor across the window.</p>
-                <a href="https://kimyoseph.github.io/Tracking-Eyes/">Go to Project</a>
+            <div class='info'>
+                <h1>GitHub</h1>
+                <p>GitHub ID: KimYoseph</p>
+                <a href="https://github.com/KimYoseph">GitHub Page</a>
             </div>
-    
-            <div>
-                <h3>Tracker Project</h3>
-                <p>In this project, we first were instructed to render in a map on a window. We then centered the map at MIT while zooming out enough to show Harvard in the top-right of the screen. We were then given the coordinates of the bus stops between MIT and Harvard. Using these coordinates, we were instructed to move a marker from MIT to each of the bustops in between the two colleges, and eventually to Harvard when a specific button was pressed.</p>
-                <a href="https://kimyoseph.github.io/Moving-Markers/">Go to Project</a>
+
+            <div class="projects">
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">PacMen Project</h5>
+                    <img src="PacMan1.png" class="card-img-top" alt="...">
+                    <p class="card-text">In the PacMen project, we were assigned the task of creating files that adds a PacMan on a random position in the window when the "Add PacMan" Button is pressed. After adding PacMen, the PacMen would begin moving across the screen at random speeds when the "Start" button is hit. If one of the PacMen were to hit the wall, they would simply bounce off of it.</p>
+                    <a href="https://kimyoseph.github.io/PacMen-Factory/">Go to Project</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Eye Moment Project</h5>
+                    <img src="Eye Movement.PNG" class="card-img-top" alt="...">
+                    <p class="card-text">In this project, we were provided with an eye that traked the mouse cursor when it was on the window. With this code, we were then told to make another eye that also tracked the cursor right next to the given eye. Essentially, we were told to make a pair of eyes that tracked the cursor across the window.</p>
+                    <a href="https://kimyoseph.github.io/Tracking-Eyes/">Go to Project</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Tracker Project</h5>
+                    <img src="MovingMarkers.PNG" class="card-img-top" alt="...">
+                    <p class="card-text">In this project, we first were instructed to render in a map on a window. We then centered the map at MIT while zooming out enough to show Harvard in the top-right of the screen. We were then given the coordinates of the bus stops between MIT and Harvard. Using these coordinates, we were instructed to move a marker from MIT to each of the bustops in between the two colleges, and eventually to Harvard when a specific button was pressed.</p>
+                    <a href="https://kimyoseph.github.io/Moving-Markers/">Go to Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div>
+                    <h4>Social Media</h4>
+                    <a href="https://www.instagram.com/">LinkedIn</a>
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://twitter.com">Twitter</a>
+                </div>
+                <div>
+                    <h4>Contact Information</h4>
+                    <p>Email: fakeemail@gmail.com</p>
+                    <p>Phone: 123-456-7890</p>
+                </div>
             </div>
         </div>
-
-        <footer>
-            <div>
-                <h4>Social Media</h4>
-                <a href="https://www.instagram.com/">LinkedIn</a>
-                <a href="https://www.facebook.com">Facebook</a>
-                <a href="https://twitter.com">Twitter</a>
-            </div>
-            <div>
-                <h4>Contact Information</h4>
-                <p>Email: fakeemail@gmail.com</p>
-                <p>Phone: 123-456-7890</p>
-            </div>
-        </footer>
     </body>
 </html>

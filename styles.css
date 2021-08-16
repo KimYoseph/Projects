@@ -1,0 +1,54 @@
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 150%;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'top top top'
+    'welcome welcome welcome'
+    'info info info'
+    'projects projects projects'
+    'footer footer footer'
+    ;
+}
+
+.top{
+    grid-area: top;
+    background-color: rgb(78, 192, 192);
+    color: black;
+}
+
+
+.welcome {
+    grid-area: welcome;
+    background-color: rgb(238, 117, 69);
+    color: white;
+}
+
+.info {
+    grid-area: info;
+    background-color: rgb(238, 117, 69);
+    color: white;
+}
+
+.projects {
+    grid-area: projects;
+    background-color: white;
+}
+
+.card {
+    float: left;
+    padding: 10px;
+    margin: 60px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(78, 192, 192);
+    color: black;
+}
